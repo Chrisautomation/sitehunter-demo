@@ -1,0 +1,4 @@
+:root{font:1rem/1.6 system-ui,sans-serif;background:#101518;color:#e9f0ed;color-scheme:dark}
+*{box-sizing:border-box}main{max-width:800px;margin:auto;padding:clamp(18px,5vw,48px)}h1{font-size:clamp(2rem,7vw,4rem);line-height:1.1}a,.label{color:#a6efc6}
+.label{font-weight:700;margin-top:2rem}label{display:block;font-weight:700}select,button{font:inherit;padding:.55rem .8rem;border-radius:.4rem}
+button{background:#a6efc6;color:#13241a;border:0}button:disabled{opacity:.5}nav{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}section,header{padding:1rem 1.25rem;border:1px solid #394945;border-radius:.65rem;background:#192522;margin-block:1rem}#message{white-space:pre-wrap;overflow-wrap:anywhere}.concept header{padding:clamp(20px,6vw,56px);background:#28392c}

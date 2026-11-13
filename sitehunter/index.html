@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SiteHunter AI / Vela · Demo</title><link rel="stylesheet" href="sitehunter.css">
+<script defer src="cases.js"></script><script defer src="workflow.js"></script>
+<main>
+<a href="https://christian-ai-workflows.christianreszczynski.chatgpt.site/">← Portfolio</a>
+<p class="label">Fictional businesses · Simulated audit results</p>
+<h1>SiteHunter AI / Vela</h1>
+<p>Turn website findings into a redesign concept and an offer ready for human review. This demo uses saved outputs from the synthetic pipeline.</p>
+<label for="company">Choose a fictional company</label>
+<select id="company"></select>
+<p id="progress" aria-live="polite"></p>
+<section hidden><h2>Website audit</h2><p>The simulated checks below illustrate problems an existing site could have. The sample record has no verified website URL.</p><ul id="findings"></ul></section>
+<section hidden><h2>Redesign proposal</h2><p>Use a responsive layout, put the menu within easy reach, and give reservations a visible place. Confirm menu, hours and booking details with the owner before publication.</p></section>
+<section hidden><h2>Generated website concept</h2><p id="headline"></p><a id="concept">Open the fictional website</a></section>
+<section hidden><h2>Sample offer email</h2><p>Fictional draft for human review.</p><strong id="subject"></strong><p id="message"></p></section>
+<nav aria-label="Demo workflow"><button id="back" type="button">Back</button><button id="next" type="button">Analyze sample site</button></nav>
+</main></html>
